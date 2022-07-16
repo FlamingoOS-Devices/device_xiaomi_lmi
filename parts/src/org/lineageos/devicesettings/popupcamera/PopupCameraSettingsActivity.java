@@ -18,11 +18,9 @@
 package org.lineageos.devicesettings.popupcamera;
 
 import android.os.Bundle;
+import android.preference.PreferenceActivity;
 
-import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
-import com.android.settingslib.collapsingtoolbar.R;
-
-public class PopupCameraSettingsActivity extends CollapsingToolbarBaseActivity {
+public class PopupCameraSettingsActivity extends PreferenceActivity {
 
   private static final String TAG_POPUPCAMERA = "popupcamera";
 
@@ -32,7 +30,7 @@ public class PopupCameraSettingsActivity extends CollapsingToolbarBaseActivity {
 
     getFragmentManager()
         .beginTransaction()
-        .replace(R.id.content_frame, new PopupCameraSettingsFragment(),
+        .replace(android.R.id.content, new PopupCameraSettingsFragment(),
                  TAG_POPUPCAMERA)
         .commit();
   }
