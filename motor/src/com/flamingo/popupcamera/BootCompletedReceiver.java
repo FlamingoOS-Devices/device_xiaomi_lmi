@@ -16,14 +16,14 @@
  * limitations under the License.
  */
 
-package co.aospa.popupcamera;
+package com.flamingo.popupcamera;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-import co.aospa.popupcamera.PopupCameraUtils;
+import com.flamingo.popupcamera.PopupCameraUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
 

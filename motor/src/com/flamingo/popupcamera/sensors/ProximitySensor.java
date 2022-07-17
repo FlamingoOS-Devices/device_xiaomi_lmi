@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package co.aospa.popupcamera.sensors;
+package com.flamingo.popupcamera.sensors;
 
 import android.content.Context;
 import android.hardware.Sensor;

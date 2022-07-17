@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package co.aospa.popupcamera;
+package com.flamingo.popupcamera;
 
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -22,7 +22,7 @@ import android.view.MenuItem;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragment;
 
-import co.aospa.popupcamera.R;
+import com.flamingo.popupcamera.R;
 
 public class PopupCameraSettingsFragment
         extends PreferenceFragment implements Preference.OnPreferenceChangeListener {

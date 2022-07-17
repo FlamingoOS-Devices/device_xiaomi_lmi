@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package co.aospa.popupcamera;
+package com.flamingo.popupcamera;
 
 import android.annotation.NonNull;
 import android.app.AlertDialog;
@@ -39,10 +39,10 @@ import android.util.Log;
 import android.view.WindowManager;
 import android.widget.Toast;
 
-import co.aospa.popupcamera.R;
-import co.aospa.popupcamera.sensors.ProximitySensor;
-import co.aospa.popupcamera.sensors.SensorsUtils;
-import co.aospa.popupcamera.utils.FileUtils;
+import com.flamingo.popupcamera.R;
+import com.flamingo.popupcamera.sensors.ProximitySensor;
+import com.flamingo.popupcamera.sensors.SensorsUtils;
+import com.flamingo.popupcamera.utils.FileUtils;
 
 import vendor.xiaomi.hardware.motor.V1_0.IMotor;
 import vendor.xiaomi.hardware.motor.V1_0.IMotorCallback;

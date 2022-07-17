@@ -1,3 +1,3 @@
--keep class co.aospa.popupcamera.* {
+-keep class com.flamingo.popupcamera.* {
   *;
 }

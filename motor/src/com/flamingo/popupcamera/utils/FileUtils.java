@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package co.aospa.popupcamera.utils;
+package com.flamingo.popupcamera.utils;
 
 import android.util.Log;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package co.aospa.popupcamera;
+package com.flamingo.popupcamera;
 
 import android.content.Context;
 import android.content.SharedPreferences;
